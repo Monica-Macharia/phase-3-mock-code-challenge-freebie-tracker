@@ -11,7 +11,10 @@ Dev.create(name: "Mr. Meseeks")
 Dev.create(name: "Gazorpazop")
 
 puts "Creating freebies..."
-
+Freebie.create(item_name: "shirt", value: 60, dev_id: 3, company_id: 1)
+Freebie.create(item_name: "short", value: 90, dev_id: 1, company_id: 4)
+Freebie.create(item_name: "jacket", value: 100, dev_id: 4, company_id: 2)
+Freebie.create(item_name: "cap", value: 50, dev_id: 2, company_id: 3)
 # ***************************************************************
 # * TODO: create freebies! Remember, a freebie belongs to a dev *
 # * and a freebie belongs to a company.                         *
